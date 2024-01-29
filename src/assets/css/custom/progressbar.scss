@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  .progress-bar {
+    width: 95%;
+    background-color: #ebebeb;
+    border-radius: 20px;
+    position: relative;
+    margin: 15px 0;
+    height: 6px;
+  }
+  .progress-done {
+    background: #4baa7e;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    transition: 1s ease 0.3s;
+  }
+}

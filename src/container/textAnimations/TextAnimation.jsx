@@ -1,5 +1,5 @@
 import React, { useCallback, useEffect } from 'react';
-import '../../assets/css/text.scss';
+import '../../assets/css/main/text.scss';
 import { Animations } from '../../utils/TextStyles';
 import { makeLabel } from '../../utils/commonFunctions';
 

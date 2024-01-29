@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import '../../assets/css/dashboard.scss';
+import '../../assets/css/main/dashboard.scss';
 import { useNavigate } from 'react-router-dom';
 
 function Dashboard() {
@@ -41,6 +41,16 @@ function Dashboard() {
         className='dashboard-containers'
         onClick={() => handleNavigation('/images')}>
         <h2>Image Animations</h2>
+      </div>
+      <div
+        className='dashboard-containers'
+        onClick={() => handleNavigation('/custom-components')}>
+        <h2>Custom Components</h2>
+      </div>
+      <div
+        className='dashboard-containers'
+        onClick={() => handleNavigation('/custom-buttons')}>
+        <h2>Buttons</h2>
       </div>
       {/* <div
         className='dashboard-containers'
